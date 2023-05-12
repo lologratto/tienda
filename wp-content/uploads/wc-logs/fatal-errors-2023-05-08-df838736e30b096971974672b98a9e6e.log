@@ -1,0 +1,92 @@
+2023-05-08T22:24:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\tienda\wp-includes\Requests\src\Transport\Curl.php en la línea 510
+
+2023-05-08T22:54:44+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php:196
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php(162): electronics_store_min_max(NULL, NULL, 240, 240, '25', 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): electronics_store_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\header.php(84): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\page.php(12): get_header()
+#10 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php en la línea 196
+
+2023-05-08T22:55:06+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php:196
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php(162): electronics_store_min_max(NULL, NULL, 240, 240, '25', 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): electronics_store_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\header.php(84): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\page.php(12): get_header()
+#10 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php en la línea 196
+
+2023-05-08T22:55:34+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php:196
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php(162): electronics_store_min_max(NULL, NULL, 240, 240, 25, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): electronics_store_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\header.php(84): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\page.php(12): get_header()
+#10 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php en la línea 196
+
+2023-05-08T22:57:19+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php:196
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php(162): electronics_store_min_max(NULL, NULL, 240, 240, '25', 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): electronics_store_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\header.php(84): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\page.php(12): get_header()
+#10 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php en la línea 196
+
+2023-05-08T22:57:46+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php:196
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php(162): electronics_store_min_max(NULL, NULL, 240, 240, '25', 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): electronics_store_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\header.php(84): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\woocommerce\archive-product.php(20): get_header('shop')
+#10 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\electronics-store\inc\logo\logo-width.php en la línea 196
+
